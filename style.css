@@ -1,0 +1,460 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.top {
+  background-color: #222222;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #f3f3f3;
+}
+
+.top h4 {
+  margin-left: 15px;
+}
+
+.top nav {
+  margin-right: 20px;
+}
+
+#lingua {
+  background: none;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+  color: #f3f3f3;
+  cursor: pointer;
+}
+
+#divisa {
+  background: none;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+  color: #f3f3f3;
+  cursor: pointer;
+}
+
+.header {
+  height: 62px;
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 46px;
+}
+
+.logo h1 {
+  color: #3c2313;
+  font-size: 22px;
+  font-weight: 700;
+}
+.logo h1 span:last-child {
+  color: #f3f3f3;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.header nav ul li + li {
+  margin-left: 13px;
+}
+
+.sect-one {
+  background-image: url("./img/bowl-and-pet-daities-on-green-background\ 1.png");
+  background-size: cover;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.sect-one .texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 30px;
+  color: #3c2313;
+}
+
+.sect-one .texts h2 {
+  background-color: #f3f3f3;
+  width: 365px;
+  height: 54px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.sect-one .texts p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sect-one .texts button {
+  background-color: #f0a83e;
+  border-radius: 5px;
+  width: 141px;
+  height: 49px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #f3f3f3;
+  border: none;
+}
+
+.sect-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.sect-two .enlaces {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sect-two .enlaces h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3c2313;
+}
+
+.sect-two .enlaces img {
+  margin-left: 140px;
+  height: 67px;
+  width: 71px;
+  image-rendering: auto;
+}
+
+.sect-two ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 70px;
+}
+
+.sect-two ul li + li {
+  margin-left: 13px;
+}
+
+.sect-two ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #666666;
+}
+
+.sect-three {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 15px;
+  padding: 20px;
+}
+
+.sect-three .products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sect-three .products .card-petisco {
+  background-color: #fbfaf6;
+  margin-left: 10px;
+}
+
+.sect-three .products .card-petisco p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #3c2313;
+  display: flex;
+  justify-content: center;
+}
+
+.sect-three .products .card-petisco p.price {
+  font-size: 15px;
+  font-weight: 500;
+  color: #f0a83e;
+}
+
+.sect-three .products .card-comedero {
+  background-color: #fbfaf6;
+  margin-left: 10px;
+}
+
+.sect-three .products .card-comedero p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #3c2313;
+  display: flex;
+  justify-content: center;
+}
+
+.sect-three .products .card-comedero p.price {
+  font-size: 15px;
+  font-weight: 500;
+  color: #f0a83e;
+}
+
+.sect-three .products .card-ossinho {
+  background-color: #fbfaf6;
+  margin-left: 10px;
+}
+
+.sect-three .products .card-ossinho p {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #3c2313;
+}
+
+.sect-three .products .card-ossinho p.price {
+  font-size: 15px;
+  font-weight: 500;
+  color: #f0a83e;
+}
+
+.sect-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.sect-four .contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 78px;
+}
+
+.sect-four .contato h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: #3c2313;
+  margin-bottom: 20px;
+}
+
+.sect-four .contato .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#q {
+  background-color: #3c2313;
+  color: #fff;
+  width: 340px;
+  height: 40px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  font-size: 9px;
+  border: none;
+  padding: 10px;
+}
+
+#email {
+  background-color: #3c2313;
+  color: #fff;
+  width: 340px;
+  height: 40px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  font-size: 9px;
+  border: none;
+  padding: 10px;
+}
+
+#telephone {
+  background-color: #3c2313;
+  color: #fff;
+  width: 340px;
+  height: 40px;
+  border-radius: 12px;
+  margin-bottom: 41px;
+  font-size: 9px;
+  border: none;
+  padding: 10px;
+}
+
+.sect-four .contato .button-form {
+  display: flex;
+  justify-content: center;
+}
+
+.sect-four .contato .button-form .button-limpar {
+  background-color: #8a8787;
+  border: none;
+  width: 110px;
+  height: 34px;
+  border-radius: 15px;
+  color: #f3f3f3;
+  margin-right: 3px;
+}
+
+.sect-four .contato .button-form .button-enviar {
+  background-color: #f0a83e;
+  border: none;
+  width: 110px;
+  height: 34px;
+  border-radius: 15px;
+  color: #f3f3f3;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.sect-five {
+  display: flex;
+  background-color: #f0a83e;
+  height: 80px;
+  justify-content: space-between;
+  padding: 20px;
+  align-content: center;
+}
+
+.sect-five .subscripcion-text {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.sect-five .subscripcion-text h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-content: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.sect-five .subscripcion-text img {
+  width: 35px;
+  height: 21px;
+  display: flex;
+  align-content: center;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+#email2 {
+  height: 40px;
+  width: 271px;
+  border-radius: 15px;
+  color: #a0a0a0;
+  font-size: 9px;
+  font-weight: 400;
+  border: none;
+  padding: 10px;
+}
+
+.sect-five .enviar button {
+  background-color: #3c2313;
+  width: 70px;
+  height: 34px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  border: none;
+  margin-right: 47px;
+}
+
+.infocontact {
+  background-color: #3c2313;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 284px;
+  padding: 15px;
+}
+
+.infocontact .contatos ul li {
+  list-style: none;
+  margin-top: 12px;
+  margin-left: 70px;
+}
+.infocontact .contatos .localizacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.infocontact .contatos .telefono {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.infocontact .contatos .Email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.infocontact .contatos ul li h3 {
+  font-size: 22px;
+  color: #fff;
+}
+
+.infocontact .contatos ul li p {
+  font-size: 14px;
+  color: #8a8787;
+}
+
+.infocontact .logo {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+
+.infocontact .logo h1 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+.infocontact .logo h1 span:last-child {
+  color: #f0a83e;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.footer-final {
+  background-color: #222222;
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
